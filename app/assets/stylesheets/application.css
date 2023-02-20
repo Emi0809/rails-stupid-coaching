@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+.btn > a {
+  color : white
+}
+.background {
+  background-color: lightgoldenrodyellow;
+}
+
+.name {
+  font-style: italic;
+  padding-top: 20px;
+}
+
+
+.title {
+ padding :20px;
+}

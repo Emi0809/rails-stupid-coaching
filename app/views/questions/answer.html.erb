@@ -1,0 +1,9 @@
+
+<p>Your question:
+<%= params[:question]%></p>
+<p class="name"> - You </p>
+<div class="background">
+<%= @answer %>
+<p class="name"> - Your Coach </p>
+</div>
+<button type="button" class="btn btn-primary"><%= link_to "ask", ask_path%></button>
